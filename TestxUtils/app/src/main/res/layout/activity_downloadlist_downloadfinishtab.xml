@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+	    android:id="@+id/act_download_Rlayout"
+	    android:layout_width="match_parent"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="13.33333dp"
+   		android:paddingRight="13.33333dp"
+    	android:layout_height="40dp">
+	    
+	    <TextView 
+	        android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+	        android:id="@+id/act_download_tv_finish"
+	        android:layout_alignParentLeft="true"
+	        android:gravity="center"
+	        android:text="下载完成(0)"
+    	    android:textColor="#646464"
+			android:textSize="17.5dp"
+	        />
+
+    	 <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:id="@+id/act_download_tv_clean"
+	        android:layout_alignParentRight="true"
+	        android:layout_margin="5dp"
+	        android:gravity="center"
+	        android:textSize="12.44444dp"
+	        android:textColor="#3c983c"
+	        android:text="清空记录"
+	        />
+	</RelativeLayout>
+
+</LinearLayout>

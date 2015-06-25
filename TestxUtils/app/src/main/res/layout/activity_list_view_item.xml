@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ming.testxutils.ListViewItemActivity">
+
+    <TextView
+        android:id="@id/download_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dip"
+        android:focusable="false"
+        android:text="应用名称" />
+
+    <TextView
+        android:id="@id/download_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/download_label"
+        android:layout_toRightOf="@id/download_label"
+        android:focusable="false"
+        android:text="下载状态：" />
+
+    <ProgressBar
+        android:id="@id/download_pb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/download_label"
+        android:layout_toLeftOf="@id/download_stop_btn"
+        android:focusable="false" />
+
+    <Button
+        android:id="@id/download_remove_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/download_label"
+        android:focusable="false"
+        android:text="取消" />
+
+    <Button
+        android:id="@id/download_stop_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/download_label"
+        android:layout_toLeftOf="@id/download_remove_btn"
+        android:focusable="false"
+        android:text="暂停" />
+
+
+</RelativeLayout>

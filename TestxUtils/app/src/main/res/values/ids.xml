@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_download" type="id">test1</item>
+    <item name="lv_content" type="id" />
+    <item name="download_state" type="id" />
+    <item name="download_pb" type="id" />
+    <item name="download_stop_btn" type="id" />
+    <item name="download_remove_btn" type="id" />
+    <item name="download_label" type="id" />
+</resources>
