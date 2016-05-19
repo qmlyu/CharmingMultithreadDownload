@@ -3,7 +3,7 @@
 成了这个demo希望可以给有同样需求的朋友一个参考，这个是我做项目前的测试demo所有有些细节可能没有完善，不过
 大致功能还是可以实现的，有什么不足还希望大家指出，一起学习一起进步！
 
-@author CharmingLee email:mingvip@hotmail.com
+@author CharmingLee email:charming_lee@qq.com
 
 
 
